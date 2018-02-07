@@ -48,7 +48,6 @@ int main(void)
 	char input[MAXLINE];
 	char *args[MAXLINE/2 + 1]; /* command line arguments */
 
-
 	struct passwd *pw = getpwuid(getuid());  /*getting the user's home directory*/
 	char *homedir = pw->pw_dir;
 
@@ -132,7 +131,6 @@ void loadHistory()
 		fptr = fopen(historyPath, "r");
 	}
 
-
 	while(fgets(command, sizeof(command), fptr))
 	{
 		command[strlen(command)-1] = '\0';
@@ -140,7 +138,6 @@ void loadHistory()
 	}
 
 	fclose(fptr);
-
 }
 
 void saveHistory()
@@ -223,7 +220,6 @@ void showHistory()
 		for(i =0; i < historySize; i++)
 			printf("%d.%s\n", historySize - i,history[i]);
 	}
-
 }
 
 void addToHistory(char input[MAXLINE])
