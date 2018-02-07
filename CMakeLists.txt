@@ -3,4 +3,4 @@ project(D2R_s_Shell C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(D2R_s_Shell main.c main.c)
+add_executable(D2R_s_Shell shell.c shell.c)
