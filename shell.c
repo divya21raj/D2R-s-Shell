@@ -52,7 +52,7 @@ int main(void)
 	char *homedir = pw->pw_dir;
 
 	strcpy(historyPath, homedir);
-	strcat(historyPath, "/history.txt");
+	strcat(historyPath, "/history.txt");   //initialising path to history
 	
 	loadHistory();  //load the history from file
 
@@ -98,7 +98,7 @@ void runCommand(char *args[MAXLINE/2 + 1])
 				printf("Could not execute command..\n");
 
 			hasAmpersand = 0;
-			exit(0);
+			//exit(0);
 		}
 		else
 		{    /* parent process */

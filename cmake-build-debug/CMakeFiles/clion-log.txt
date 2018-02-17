@@ -1,0 +1,4 @@
+/usr/local/CLion-2017.3.2/clion-2017.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/D2R/Documents/CLionProjects/OS-Lab/D2R's-Shell
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/D2R/Documents/CLionProjects/OS-Lab/D2R's-Shell/cmake-build-debug

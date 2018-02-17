@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/D2R/Documents/CLionProjects/OS-Lab/D2R's-Shell/shell.c
+sys/types.h
+-
+stdio.h
+-
+unistd.h
+-
+string.h
+-
+sys/wait.h
+-
+stdlib.h
+-
+pwd.h
+-
+
